@@ -25,9 +25,8 @@ h1 {
 }
 
 main {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 800px;
+  margin: 0 auto;
   padding: 16px;
 }
 
@@ -127,6 +126,39 @@ a:hover {
   border-radius: 5px;
   width: 100%;
   height: auto;
+}
+
+.header-container {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.header-container h1 {
+  float: left;
+  margin: 0;
+  font-size: 2em;
+}
+
+.header-container nav {
+  float: right;
+  margin-top: 10px;
+}
+
+.header-container nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.header-container nav li:last-child {
+  margin-right: 0;
 }
 
 @media (max-width: 600px) {
